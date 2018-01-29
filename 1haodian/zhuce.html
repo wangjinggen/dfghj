@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/ce.css"/>
+	</head>
+	<body>
+		<header>
+			<img src="img/2018-01-08_162059.png"/>
+			<div>
+				<p>您好，欢迎光临1号店！</p><p>请登录</p>
+				<img src="img1/03.png"/>
+			</div>
+		</header>
+		<nav>
+			<div class="yu">
+				<img src="img1/11.png"/>
+			</div>
+			
+			<form  action="denglu.html" method="get" name="myform">
+				<p>1号店用户登录</p><p>注册登录</p>
+				
+				<dd><input type="text" id="user" placeholder="邮箱/手机/用户名" style="background: url(img1/14.png) no-repeat 20px;"/><div id="user_prompt">用户名由英文字母和数字组成的4-16位字符，以字母开头</div></dd>
+				<dd><input type="text" id="pwd" placeholder="密码" style="background: url(img1/17.png) no-repeat 20px;"/><div id="pwd_prompt">密码由英文字母和数字组成的4-10位字符</div></dd>
+				<div class="zhu">
+					<input type="checkbox" value="" /><span>自动登录</span>
+					<p>忘记密码？</p>
+				</div>
+				<button>登录</button>
+				<div class="lu">
+					<p>更多合作网站账号登录</p>
+				</div>
+				<div class="wei">
+					<img src="img1/21.png"/>
+					<img src="img1/23.png"/>
+					<img src="img1/25.png"/>
+					<img src="img1/27.png"/>
+					<p>更多合作网站</p>
+				</div>
+			</form>
+		</nav>
+		<footer>
+			<p>沪ICP备13044278号    |  合子B1.B2-20130004   |   营业执照</p>
+			<p>Copyright @ 1号店网上超市2007-2016   ， AII Rights Reserved</p>
+		</footer>
+	</body>
+	<script src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript">
+//		用户名验证
+	$("#user").blur(function () {
+		var user=$(this).val();
+		console.log(user);
+		var  reg=/^[a-zA-Z][a-zA-Z0-9]{3,15}$/;//用户名由英文字母和数字组成的4-16位字符，以字母开头
+		if (reg.test(user)==false) {
+			$("#user_prompt").html("用户名不正确");
+			return false;
+		}
+		$("#user_prompt").html("");
+		return true;
+	})
+	
+	
+	//	密码验证
+	$("#pwd").blur(function () {
+		var pwd=$(this).val();
+		console.log(pwd);
+		var  reg=/^[a-zA-Z0-9]{4,10}$/;//密码由英文字母和数字组成的4-10位字符
+		if (reg.test(pwd)==false) {
+			$("#pwd_prompt").html("密码格式不正确");
+			return false;
+		}
+		$("#pwd_prompt").html("");
+		return true;
+	})
+	</script>
+</html>

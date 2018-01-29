@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/deng.css"/>
+	</head>
+	<body>
+		<header>
+			<img src="img/2018-01-08_162059.png"/>
+			<div>
+				<p>您好，欢迎光临1号店！</p><p>请登录</p>
+				<img src="img1/03.png"/>
+			</div>
+		</header>
+		
+		<nav>
+			<div>
+				<h2>1号店注册</h2>
+				<dd><input type="text" id="mobile" placeholder="手机号"/><div id="mobile_prompt"></div></dd>
+				
+				<li>
+					<input type="text" placeholder="手机号"/>
+					<button>获取验证码</button>
+				</li>
+				
+				<dd><input type="text" id="pwd" placeholder="设置密码"/><div id="pwd_prompt">密码由英文字母和数字组成的4-10位字符</div></dd>
+				<dd><input type="text" id="repwd" placeholder="确认密码"/><div id="repwd_prompt"></div></dd>
+				
+				
+				<div class="ce">
+					<p>点击注册 ，表示您同意1号店 <span>《服务协议》</span></p>
+				</div>
+				<button>同意协议并注册</button>
+				<p>沪ICP备13044278号    |  合子B1.B2-20130004   |   营业执照</p>
+				<p>Copyright @ 1号店网上超市2007-2016   ， AII Rights Reserved</p>
+			</div>
+		</nav>
+	</body>
+	<script src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript">
+		//	验证手机号码
+	$("#mobile").blur(function () {
+		var mobile=$(this).val();
+		console.log(mobile);
+		var  reg=/^1\d{10}$/;//验证
+		if (reg.test(mobile)==false) {
+			$("#mobile_prompt").html("手机号码不正确 请重新输入");
+			return false;
+		}
+		$("#mobile_prompt").html("");	
+		return true;
+	})
+	
+	//	密码验证
+	$("#pwd").blur(function () {
+		var pwd=$(this).val();
+		console.log(pwd);
+		var  reg=/^[a-zA-Z0-9]{4,10}$/;//密码由英文字母和数字组成的4-10位字符
+		if (reg.test(pwd)==false) {
+			$("#pwd_prompt").html("密码格式不正确");
+			return false;
+		}
+		$("#pwd_prompt").html("");
+		return true;
+	})
+	
+	
+	$("#repwd").blur(function () {
+		var repwd=$("#repwd").val();
+		var pwd=$("#pwd").val();
+		console.log(pwd);
+		if (pwd!=repwd) {
+			$("#repwd_prompt").html("两次输入的密码不一致");
+			return false;
+		}
+		$("#repwd_prompt").html("");		
+		return true;
+	})
+	</script>
+</html>

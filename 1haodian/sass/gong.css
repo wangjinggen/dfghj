@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul, li {
+  list-style: none; }
+
+header {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  background: #E4E4E4;
+  float: left; }
+  header span {
+    float: left;
+    margin-left: 40px;
+    font-size: 10px; }
+  header ul {
+    width: 45%;
+    float: right; }
+    header ul li {
+      font-size: 10px;
+      margin-left: 15px;
+      float: left; }
+      header ul li img:nth-of-type(4) {
+        width: 15px;
+        height: 15px; }
+    header ul li:nth-child(2) {
+      color: red; }
+
+footer {
+  width: 100%;
+  height: 170px; }
+  footer .footer-top .footer-a {
+    width: 20%;
+    height: 120px;
+    line-height: 210px;
+    float: left;
+    text-align: center; }
+    footer .footer-top .footer-a img {
+      margin-left: 50px;
+      width: 200px;
+      height: 80px; }
+  footer .footer-top .footer-b {
+    width: 40%;
+    height: 80px;
+    margin-top: 50px;
+    margin-left: 100px;
+    float: left; }
+    footer .footer-top .footer-b input {
+      width: 300px;
+      height: 30px;
+      border: 1px solid red; }
+    footer .footer-top .footer-b button {
+      border: none;
+      width: 80px;
+      height: 32px;
+      color: white;
+      font-size: 10px;
+      background: red; }
+    footer .footer-top .footer-b p {
+      font-size: 8px;
+      color: gainsboro; }
+  footer .footer-top .footer-c {
+    width: 30%;
+    height: 80px;
+    margin-top: 50px;
+    text-align: center;
+    float: right; }
+    footer .footer-top .footer-c .footer-right {
+      width: 100px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      background: #F6F6F6; }
+      footer .footer-top .footer-c .footer-right span {
+        font-size: 10px; }
+
+.content {
+  width: 80%;
+  height: 150px;
+  text-align: center;
+  margin: 0 auto; }
+  .content > ul {
+    margin-left: 120px; }
+    .content > ul li {
+      width: 20%;
+      text-align: center;
+      float: left; }
+      .content > ul li img {
+        width: 60px;
+        height: 60px; }
+      .content > ul li p {
+        font-size: 15px; }
+      .content > ul li span {
+        font-size: 10px;
+        color: gainsboro; }
+
+.nooth {
+  width: 100%;
+  float: left;
+  margin-left: 40px;
+  margin-top: 20px;
+  border-bottom: 1px dashed gray; }
+  .nooth .nav {
+    width: 50%;
+    float: left;
+    margin-left: 150px; }
+    .nooth .nav dl {
+      width: 10%;
+      margin-left: 50px;
+      float: left; }
+      .nooth .nav dl dt {
+        font-size: 15px;
+        margin-bottom: 15px; }
+      .nooth .nav dl dd {
+        margin-top: 5px;
+        font-size: 10px;
+        color: gray; }
+  .nooth .ma {
+    width: 16%;
+    height: 150px;
+    margin: 0 auto;
+    float: left; }
+    .nooth .ma .mar {
+      float: right;
+      margin-left: 10px; }
+      .nooth .ma .mar p:nth-of-type(1) {
+        font-size: 10px;
+        color: gray; }
+      .nooth .ma .mar p:nth-of-type(2) {
+        font-size: 10px;
+        color: gray; }
+      .nooth .ma .mar p:nth-of-type(3) {
+        font-size: 10px;
+        color: gray;
+        margin-top: 20px; }
+      .nooth .ma .mar p:nth-of-type(4) {
+        color: aqua;
+        margin-top: 5px;
+        font-size: 14px; }
+
+.footer {
+  width: 100%;
+  float: left; }
+  .footer p {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 10px;
+    color: gray; }
+
+.footer-img {
+  width: 100%;
+  margin: 0 auto;
+  margin-left: 415px;
+  float: left; }
+  .footer-img img {
+    margin: 0 auto !important;
+    width: 37%;
+    height: 42px; }
+
+/*# sourceMappingURL=gong.css.map */

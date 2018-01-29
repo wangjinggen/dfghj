@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+ul, li {
+  list-style: none; }
+
+header {
+  width: 1310px;
+  height: 85px;
+  border-bottom: 1px solid forestgreen; }
+  header > img {
+    width: 115px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 40px;
+    float: left; }
+  header div {
+    width: 290px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 50px;
+    float: right;
+    margin-top: 20px; }
+    header div p {
+      float: left; }
+    header div p:nth-of-type(1) {
+      color: gainsboro;
+      font-size: 10px; }
+    header div p:nth-of-type(2) {
+      margin-right: 20px;
+      font-size: 10px;
+      color: blue; }
+    header div img {
+      width: 100px;
+      height: 25px; }
+
+nav {
+  width: 1310px;
+  height: 545px;
+  text-align: center;
+  margin-top: 30px; }
+  nav div {
+    width: 330px;
+    height: 450px;
+    margin: 0 auto; }
+    nav div h2 {
+      font-size: 15px; }
+    nav div dd input {
+      width: 330px;
+      height: 55px;
+      margin-top: 10px;
+      padding-left: 20px; }
+    nav div dd div {
+      width: 100px;
+      height: 5px;
+      font-size: 1px;
+      color: orangered; }
+    nav div dd:nth-of-type(2) input {
+      width: 330px;
+      height: 55px;
+      margin-top: 10px;
+      padding-left: 20px; }
+    nav div dd:nth-of-type(2) div {
+      width: 150px;
+      height: 5px;
+      font-size: 1px;
+      color: orangered; }
+    nav div dd:nth-of-type(3) input {
+      width: 330px;
+      height: 55px;
+      margin-top: 10px;
+      padding-left: 20px; }
+    nav div dd:nth-of-type(3) div {
+      width: 150px;
+      height: 5px;
+      font-size: 1px;
+      color: orangered; }
+    nav div input {
+      width: 330px;
+      height: 55px;
+      margin-top: 10px;
+      padding-left: 20px; }
+    nav div li {
+      width: 350px;
+      height: 55px;
+      float: left;
+      margin-bottom: 15px; }
+      nav div li input {
+        width: 196px;
+        height: 55px;
+        margin-top: 10px;
+        padding-left: 20px; }
+      nav div li button {
+        width: 125px;
+        height: 50px;
+        background: #57565F;
+        color: white; }
+    nav div .ce {
+      width: 355px;
+      height: 45px;
+      line-height: 45px; }
+      nav div .ce p {
+        margin-left: 10px;
+        font-size: 10px; }
+        nav div .ce p span {
+          color: blue; }
+    nav div button {
+      width: 353px;
+      height: 50px;
+      background: red;
+      border: none;
+      color: white; }
+    nav div p {
+      font-size: 10px;
+      margin-top: 10px; }
+
+/*# sourceMappingURL=deng.css.map */

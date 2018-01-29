@@ -1,0 +1,155 @@
+//基本样式
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+
+header{
+    width: 1310px;
+    height: 85px;                                         
+//  line-height: 85px;
+    border-bottom: 1px solid forestgreen;
+    >img{
+        width: 115px;
+        height: 50px;
+        margin-top: 15px;
+        margin-left: 40px;
+        float: left;
+    }
+    div{
+        width: 290px;
+        height: 30px;
+        line-height: 30px;
+        margin-right: 50px;
+        float: right;
+        margin-top: 20px;
+        p{
+            float: left;
+        }
+        p:nth-of-type(1){
+            color: gainsboro;
+//          margin-top: 10px;
+            font-size: 10px;
+        }
+        p:nth-of-type(2){
+            margin-right: 20px;
+            font-size: 10px;
+            color: blue;
+        }
+        img{
+//          margin-top: 10px;
+            width: 100px;
+            height: 25px;
+        }
+    }
+}
+
+nav{
+    width: 1310px;
+    height: 545px;
+    text-align: center;
+    margin-top: 30px;
+//  margin: 0 auto;
+    div{
+        width: 330px;
+        height: 450px;
+        margin: 0 auto;
+        h2{
+            font-size: 15px;
+        }
+        dd{
+            input{
+            width: 330px;
+            height: 55px;
+            margin-top: 10px;
+            padding-left: 20px;
+            }
+            div{
+                width: 100px;
+                height: 5px;
+                font-size: 1px ;
+                color: orangered;
+            }
+        }
+        dd:nth-of-type(2){
+            input{
+            width: 330px;
+            height: 55px;
+            margin-top: 10px;
+            padding-left: 20px;
+            }
+            div{
+                width: 150px;
+                height: 5px;
+                font-size: 1px ;
+                color: orangered;
+            }
+        }
+        dd:nth-of-type(3){
+            input{
+            width: 330px;
+            height: 55px;
+            margin-top: 10px;
+            padding-left: 20px;
+            }
+            div{
+                width: 150px;
+                height: 5px;
+                font-size: 1px ;
+                color: orangered;
+            }
+        }
+        input{
+            width: 330px;
+            height: 55px;
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+        li{
+            width: 350px;
+            height: 55px;
+            float: left;
+            margin-bottom: 15px;
+            input{
+                width: 196px;
+                height: 55px;
+                margin-top: 10px;
+                padding-left: 20px;
+            }
+            button{
+                width: 125px;
+                height: 50px;
+                background: #57565F;
+                color: white;
+            }
+        }
+        .ce{
+            width: 355px;
+            height: 45px;
+            line-height: 45px;
+            p{
+                margin-left: 10px;
+                font-size: 10px;
+                span{
+                    color: blue;
+                }
+            }
+        }
+        button{
+            width: 353px;
+            height: 50px;
+            background: red;
+            border: none;
+            color: white;
+        }
+        p{
+            font-size: 10px;
+            margin-top: 10px;
+        }
+    }
+}
+

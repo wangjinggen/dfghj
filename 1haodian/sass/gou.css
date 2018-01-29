@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+ul, li {
+  list-style: none; }
+
+header {
+  width: 300px;
+  height: 565px; }
+  header .man {
+    width: 290px;
+    height: 166px;
+    float: left; }
+    header .man h2 {
+      font-size: 12px;
+      float: left; }
+    header .man p {
+      font-size: 12px;
+      float: right; }
+
+/*# sourceMappingURL=gou.css.map */

@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+ul, li {
+  list-style: none; }
+
+header {
+  width: 1310px;
+  height: 85px;
+  border-bottom: 1px solid forestgreen; }
+  header > img {
+    width: 115px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 20px;
+    float: left; }
+  header div {
+    width: 290px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 50px;
+    float: right;
+    margin-top: 20px; }
+    header div p {
+      float: left; }
+    header div p:nth-of-type(1) {
+      color: gainsboro;
+      font-size: 10px; }
+    header div p:nth-of-type(2) {
+      margin-right: 20px;
+      font-size: 10px;
+      color: blue; }
+    header div img {
+      width: 100px;
+      height: 25px; }
+
+nav {
+  width: 1310px;
+  height: 425px;
+  background: #FCFCFC; }
+  nav .yu {
+    width: 505px;
+    height: 425px;
+    margin-left: 250px;
+    float: left; }
+    nav .yu img {
+      width: 300px;
+      height: 200px;
+      margin-top: 80px; }
+  nav form {
+    width: 330px;
+    height: 320px;
+    margin-right: 200px;
+    margin-top: 80px;
+    float: left; }
+    nav form p:nth-of-type(1) {
+      font-size: 10px;
+      float: left; }
+    nav form p:nth-of-type(2) {
+      font-size: 10px;
+      color: blue;
+      float: right; }
+    nav form dd input {
+      width: 282px;
+      height: 35px;
+      margin-top: 5px;
+      border: 1px solid gainsboro;
+      padding-left: 50px;
+      line-height: 35px; }
+    nav form dd div {
+      color: #F00;
+      font-size: 10px;
+      display: inline;
+      padding-left: 5px; }
+    nav form input:nth-of-type(2) {
+      width: 282px;
+      height: 35px;
+      margin-top: 10px;
+      border: 1px solid gainsboro;
+      padding-left: 50px;
+      line-height: 35px; }
+    nav form .zhu {
+      width: 330px;
+      height: 50px;
+      line-height: 50px;
+      float: left; }
+      nav form .zhu input {
+        width: 10px;
+        height: 48px;
+        float: left;
+        margin-right: 10px; }
+      nav form .zhu span {
+        font-size: 10px; }
+      nav form .zhu p {
+        float: right; }
+    nav form button {
+      width: 330px;
+      height: 50px;
+      color: white;
+      border: none;
+      background: red; }
+    nav form .lu {
+      width: 330px;
+      height: 45px;
+      line-height: 45px; }
+      nav form .lu p {
+        font-size: 10px; }
+    nav form .wei {
+      width: 330px;
+      height: 40px; }
+      nav form .wei img {
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+        float: left; }
+      nav form .wei p {
+        float: right;
+        font-size: 10px; }
+
+footer {
+  width: 1310px;
+  height: 130px;
+  text-align: center; }
+  footer p {
+    font-size: 10px; }
+
+/*# sourceMappingURL=ce.css.map */
